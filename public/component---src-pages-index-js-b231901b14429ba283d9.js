@@ -1,0 +1,2 @@
+(self.webpackChunkgatsby_starter_hello_world=self.webpackChunkgatsby_starter_hello_world||[]).push([[678],{704:function(e,t,r){"use strict";r.r(t),r.d(t,{default:function(){return n}});var l=r(294);function n(){return l.createElement("div",null,"Teste de branch kalish")}}}]);
+//# sourceMappingURL=component---src-pages-index-js-b231901b14429ba283d9.js.map

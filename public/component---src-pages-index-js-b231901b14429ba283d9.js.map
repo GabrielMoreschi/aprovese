@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://gatsby-starter-hello-world/./src/pages/index.js"],"names":["Home"],"mappings":"sMAEe,SAASA,IACtB,OAAO","file":"component---src-pages-index-js-b231901b14429ba283d9.js","sourcesContent":["import React from \"react\"\n\nexport default function Home() {\n  return <div>Teste de branch kalish</div>\n}\n"],"sourceRoot":""}
