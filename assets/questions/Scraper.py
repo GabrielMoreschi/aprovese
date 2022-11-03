@@ -34,7 +34,8 @@ class QuestionsScraper:
         self.statisticsPath = statisticsPath
         self.safeSleep = safeSleep
         self.sleepTime = sleepTime
-        self.header = kwargs.get('header', {'User-Agent': 'Mozilla/5.0', 'cookie':COOKIE})
+        self.header = kwargs.get(
+            'header', {'User-Agent': 'Mozilla/5.0', 'cookie': COOKIE})
         self.log = logging.getLogger(__name__)
         self.currentPage = 1
         self.collectedData = []
@@ -107,10 +108,18 @@ class QuestionsScraper:
         data = 'data%5Bquestion_id%5D={}&data%5Balready_solved%5D=false&data%5Bshow_path%5D=false&asset_key=&authenticity_token=EQ21DEXV%2F8m8KR4%2F1En2xtEuQ%2BkwuyLQ5bfcyfUC2GNuB6ltvccu8ZSel5LO%2FkG48uOilxYp1HAaIA2iZxKUhA%3D%3D&data_type=hash&type=page_component'.format(
             id)
         request = requests.post(
-            '{}/{}'.format(self.url, self.statisticsPath), headers=self.header, data=data).text
-        correctMatch = re.search(r'data-hits=.([^"\']+).', request)
-        optionsMatch = re.search(r'data-options=.([^"\']+).', request)
-        percentagesMatch = re.search(r'data-pecentages=.([^"\']+).', request)
+            '{}/{}'.format(self.url, self.statisticsPath), headers=self.header, data=data)
+        self.log.info('Collecting answer from question {}. Status: {}'.format(
+            id, request.status_code))
+        if request.status_code == 429:
+            self.log.info(
+                'Too many requests. Sleeping for {} seconds'.format(self.sleepTime))
+            time.sleep(self.sleepTime)
+            return self.getAnswer(id)
+        correctMatch = re.search(r'data-hits=.([^"\']+).', request.text)
+        optionsMatch = re.search(r'data-options=.([^"\']+).', request.text)
+        percentagesMatch = re.search(
+            r'data-pecentages=.([^"\']+).', request.text)
         if correctMatch:
             correctPercentage = correctMatch.group(1)
         if optionsMatch and percentagesMatch:
@@ -120,17 +129,24 @@ class QuestionsScraper:
                    correctPercentage]
         if len(answers) == 1:
             return answers[0]
-    
+
     def getAllAnswers(self):
         for i, d in enumerate(self.collectedData):
+            if d.get('answer'):
+                continue
             answer = self.getAnswer(d.get('qID'))
+            time.sleep(self.safeSleep)
             d['answer'] = answer
             self.collectedData[i] = d
+            if i % 5 == 0:
+                self.log.info('Collected answers {}/{}'.format(i,
+                              len(self.collectedData)))
+
 
 if __name__ == '__main__':
     try:
         QS = QuestionsScraper()
-        #QS.scraper()
+        # QS.scraper()
         QS.collectedData = json.load(open('someQuestions.json', 'r'))
         QS.getAllAnswers()
     except KeyboardInterrupt:
