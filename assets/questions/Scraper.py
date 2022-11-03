@@ -138,7 +138,7 @@ class QuestionsScraper:
             time.sleep(self.safeSleep)
             d['answer'] = answer
             self.collectedData[i] = d
-            if i % 5 == 0:
+            if (i+1) % 5 == 0:
                 self.log.info('Collected answers {}/{}'.format(i,
                               len(self.collectedData)))
 
@@ -147,7 +147,7 @@ if __name__ == '__main__':
     try:
         QS = QuestionsScraper()
         # QS.scraper()
-        QS.collectedData = json.load(open('someQuestions.json', 'r'))
+        QS.collectedData = json.load(open('mathQuestions.json', 'r'))
         QS.getAllAnswers()
     except KeyboardInterrupt:
         pass
