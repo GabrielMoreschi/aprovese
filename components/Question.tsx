@@ -1,6 +1,6 @@
 import * as WebBrowser from 'expo-web-browser';
 import { StyleSheet, TouchableOpacity } from 'react-native';
-import {useState} from 'react';
+import React, { useState } from 'react';
 
 import Colors from '../constants/Colors';
 import { MonoText } from './StyledText';
@@ -9,71 +9,124 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import data from '../assets/questions/data/testQuestions.json'
 import '../assets/style/button.css'
 
+var value = data
+
 export default function Question({ path }: { path: string }) {
   //const [num, setNum] = useState(0);
-  const value = data//JSON.stringify(data)
-  let qNum = randomNumberInRange(1, 5)
-  console.log(Object.entries(value[qNum]["options"]).map(e => e[0]+e[1]['text']))
+  //const value = data//JSON.stringify(data)
+  const [hits, setHits] = useState('0');
+  let question = randomQuestion()
+  const handleClick = handleAnswer();
+  const checkAnswer = (event: React.MouseEvent<HTMLElement>) => {
+    let button = event.target as HTMLButtonElement;
+    if (button.value == question.answer) {
+      console.log("ACERTOO MIRASVI")
+      AsyncStorage.getItem('hits').then((hits) => { 
+        if (hits == null) {
+          AsyncStorage.setItem('hits', '0')
+        }
+        else {
+          let newHits = parseInt(hits)+1
+          AsyncStorage.setItem('hits', newHits.toString())
+        }
+      });
+    }
+  };
+
+
+  if (question == false) {
+    return (
+      <View>
+      <View style={styles.getStartedContainer}>
+        <Text
+          style={styles.questionText}
+          lightColor="rgba(0,0,0,0.8)"
+          darkColor="rgba(255,255,255,0.8)">
+          Acabou
+        </Text>
+      </View>
+    </View>
+    );
+  }
+  else {
   return (
     <View>
       <View style={styles.getStartedContainer}>
-      <Text
+        <Text
           style={styles.categoriesText}
           lightColor="rgba(0,0,0,0.8)"
           darkColor="rgba(255,255,255,0.8)">
-          Categorias: {value[qNum]["categories"].join(', ')}
+          Categorias: {question["categories"].join(', ')}
         </Text>
         <Text
           lightColor="rgba(0,0,0,0.8)"
           darkColor="rgba(255,255,255,0.8)">
-          Ano: {value[qNum]["year"]},
-          Banca: {value[qNum]["judge"]},
-          Órgão: {value[qNum]["organization"][0]}
-        </Text>
-        <Text
-          style={styles.questionText}
-          lightColor="rgba(0,0,0,0.8)"
-          darkColor="rgba(255,255,255,0.8)">
-          {value[qNum]["question"]}
+          Ano: {question["year"]},
+          Banca: {question["judge"]},
+          Órgão: {question["organization"][0]}
         </Text>
         <Text
           style={styles.questionText}
           lightColor="rgba(0,0,0,0.8)"
           darkColor="rgba(255,255,255,0.8)">
-          {JSON.stringify(value[qNum]["options"])}
+          {question["question"]}
         </Text>
+        {Object.entries(question["options"]).map((e:any,i) => {
+          return (
+          <Text
+            key={i}
+            style={styles.questionText}
+            lightColor="rgba(0,0,0,0.8)"
+            darkColor="rgba(255,255,255,0.8)">
+            <TouchableOpacity onPress={handleClick}>
+              <button onClick={checkAnswer} className="buttonA" value={e[0]}>{e[1]['text']}</button>
+            </TouchableOpacity>
+          </Text>);
+        })}
         <Text
           style={styles.questionText}
           lightColor="rgba(0,0,0,0.8)"
           darkColor="rgba(255,255,255,0.8)">
-          Respota: {value[qNum]["answer"]}
         </Text>
-        <Text
-          style={styles.questionText}
-          lightColor="rgba(0,0,0,0.8)"
-          darkColor="rgba(255,255,255,0.8)">
-          <h1 className="buttonA">Teste</h1>
-        </Text>
-      </View>
-      <View style={styles.helpContainer}>
-        <TouchableOpacity onPress={handleHelpPress} style={styles.helpLink}>
-          <Text style={styles.helpLinkText} lightColor={Colors.light.tint}>
-            Tap here if your app doesn't automatically update after making changes
-          </Text>
-        </TouchableOpacity>
       </View>
     </View>
   );
 }
-
-function randomNumberInRange(min: number, max: number) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function handleHelpPress() {
-  WebBrowser.openBrowserAsync(
-    'https://docs.expo.io/get-started/create-a-new-app/#opening-the-app-on-your-phonetablet'
-  );
+function randomQuestion(): any {
+  if (value.length == 0) {
+    return false
+  }
+  let randomNum = Math.floor(Math.random() * value.length);
+  let cachedValue = value[randomNum];
+  value.splice(randomNum,1);
+  if (checkValidQuestion(cachedValue) == true) {
+    return cachedValue;
+  }
+  return randomQuestion()
+}
+
+function checkValidQuestion(question:any) {
+  let isValid = true
+  if (question["answer"] == null) {
+    return false
+  }
+  if (question["images"].length > 0) {
+    return false
+  }
+  Object.values(question["options"]).forEach((o:any) => {
+    if (o.images.length > 0) {
+      isValid = false;
+      return
+    }
+  });
+  return isValid
+}
+
+function handleAnswer() {
+  const [refresh, setRefresh] = React.useState(0)
+  return () => setRefresh(refresh => refresh + 1);
 }
 
 const styles = StyleSheet.create({
@@ -113,59 +166,6 @@ const styles = StyleSheet.create({
   helpLinkText: {
     textAlign: 'center',
   },
-  
-/*   <!-- HTML !-->
-<button class="button-84" role="button">Button 84</button>
-.button-84 {
-  align-items: center;
-  background-color: initial;
-  background-image: linear-gradient(#464d55, #25292e);
-  border-radius: 8px;
-  border-width: 0;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, .1),0 3px 6px rgba(0, 0, 0, .05);
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: inline-flex;
-  flex-direction: column;
-  font-family: expo-brand-demi,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  font-size: 18px;
-  height: 52px;
-  justify-content: center;
-  line-height: 1;
-  margin: 0;
-  outline: none;
-  overflow: hidden;
-  padding: 0 32px;
-  text-align: center;
-  text-decoration: none;
-  transform: translate3d(0, 0, 0);
-  transition: all 150ms;
-  vertical-align: baseline;
-  white-space: nowrap;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.button-84:hover {
-  box-shadow: rgba(0, 1, 0, .2) 0 2px 8px;
-  opacity: .85;
-}
-
-.button-84:active {
-  outline: 0;
-}
-
-.button-84:focus {
-  box-shadow: rgba(0, 0, 0, .5) 0 0 0 3px;
-}
-
-@media (max-width: 420px) {
-  .button-84 {
-    height: 48px;
-  }
-} */
 });
 
 

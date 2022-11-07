@@ -207,5 +207,47 @@
             }
         },
         "answer": "A"
+    },
+    {
+        "qID": "1689187",
+        "categories": [
+            "Matem\u00e1tica",
+            "Geometria Espacial",
+            "Cilindro"
+        ],
+        "year": "2021",
+        "judge": "INEP",
+        "organization": "ENEM",
+        "tests": [
+            "INEP - 2021 - ENEM - Exame Nacional do Ensino M\u00e9dio - Primeiro e Segundo Dia - PPL - Edital 2020"
+        ],
+        "question": " Um piscicultor cria uma esp\u00e9cie de peixe em um tanque cil\u00edndrico. Devido \u00e0s caracter\u00edsticas dessa esp\u00e9cie, o tanque deve ter, exatamente,2 metros de profundidade e ser dimensionado de forma a comportar 5 peixes para cada metro c\u00fabico de \u00e1gua. Atualmente, o tanque comporta um total de 750 peixes. O piscicultor deseja aumentara capacidade do tanque para que ele comporte900 peixes, mas sem alterar a sua profundidade. Considere 3 como aproxima\u00e7\u00e3o para \u03c0.O aumento da medida do raio do tanque, em metro, deve ser de",
+        "text": null,
+        "images": [],
+        "options": {
+            "A": {
+                "text": "\u221a30 \u2212 5",
+                "images": []
+            },
+            "B": {
+                "text": "",
+                "images": [
+                    "https://qcon-assets-production.s3.amazonaws.com/images/provas/79768/quest_o%20160.png"
+                ]
+            },
+            "C": {
+                "text": "\u221a5",
+                "images": []
+            },
+            "D": {
+                "text": "5/2",
+                "images": []
+            },
+            "E": {
+                "text": "15/2",
+                "images": []
+            }
+        },
+        "answer": "A"
     }
 ]
