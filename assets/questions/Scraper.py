@@ -147,7 +147,7 @@ if __name__ == '__main__':
     try:
         QS = QuestionsScraper()
         # QS.scraper()
-        QS.collectedData = json.load(open('mathQuestions.json', 'r'))
+        QS.collectedData = json.load(open('AmathQuestions.json', 'r'))
         QS.getAllAnswers()
     except KeyboardInterrupt:
         pass

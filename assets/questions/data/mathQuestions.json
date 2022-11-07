@@ -33076,7 +33076,8 @@
                 "text": "1: 2 000 000",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "876467",
@@ -33116,7 +33117,8 @@
                 "text": "10,10.",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "876466",
@@ -33157,7 +33159,8 @@
                 "text": "L(t) = 200t+ 3 000",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "876465",
@@ -33208,7 +33211,8 @@
                     "https://s3.amazonaws.com/qcon-assets-production/images/provas/56643/c422d23d26aa169a2502.png"
                 ]
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "876464",
@@ -33248,7 +33252,8 @@
                 "text": "B, C e D.",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "876463",
@@ -33289,7 +33294,8 @@
                 "text": "V.",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "876462",
@@ -33338,7 +33344,8 @@
                     "https://s3.amazonaws.com/qcon-assets-production/images/provas/56643/e6edc719aeb07c9da614.png"
                 ]
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "876461",
@@ -33379,7 +33386,8 @@
                 "text": "150.",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "876460",
@@ -33419,7 +33427,8 @@
                 "text": "Vermelha.",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "876459",
@@ -33458,7 +33467,8 @@
                 "text": "f\u00e9 sobrejetora, pois basta que uma menina do\nconjuntoAforme par com dois meninos pertencentes\nao conjuntoB, assim nenhum menino ficar\u00e1 sem par.",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "876458",
@@ -33497,7 +33507,8 @@
                 "text": "3,60.",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "876457",
@@ -33535,7 +33546,8 @@
                 "text": "96.",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "876456",
@@ -33576,7 +33588,8 @@
                 "text": "300",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "876455",
@@ -33615,7 +33628,8 @@
                 "text": "50.",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "876454",
@@ -33654,7 +33668,8 @@
                 "text": "15,00.",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "876453",
@@ -33693,7 +33708,8 @@
                 "text": "96",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "876452",
@@ -33733,7 +33749,8 @@
                 "text": "18,1",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "876451",
@@ -33774,7 +33791,8 @@
                 "text": "598",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "876450",
@@ -33813,7 +33831,8 @@
                 "text": "200",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "876449",
@@ -33853,7 +33872,8 @@
                 "text": "destrutivo, com consequ\u00eancias nas funda\u00e7\u00f5es dos\nedif\u00edcios, fendas no solo e tubula\u00e7\u00f5es no subsolo.",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "876448",
@@ -33892,7 +33912,8 @@
                 "text": "8.",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "876447",
@@ -33931,7 +33952,8 @@
                 "text": "475.",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "876446",
@@ -33970,7 +33992,8 @@
                 "text": "perdeu 7,5% em poder aquisitivo de carne.",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "876445",
@@ -34009,7 +34032,8 @@
                 "text": "2701200102012.",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "876443",
@@ -34051,7 +34075,8 @@
                 "text": "345,00%",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "876442",
@@ -34090,7 +34115,8 @@
                 "text": "22 h 30 min",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "876441",
@@ -34129,7 +34155,8 @@
                 "text": "32 400.",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "876440",
@@ -34168,7 +34195,8 @@
                 "text": "9.",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "876439",
@@ -34207,7 +34235,8 @@
                 "text": "A decis\u00e3o foi ruim para o fabricante, pois o plano B\ncustar\u00e1 ao todo R$ 6 000,00 a mais do que o plano A\ncustaria.",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "876438",
@@ -34249,7 +34278,8 @@
                 "text": "E.",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "876437",
@@ -34288,7 +34318,8 @@
                 "text": "62",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "876436",
@@ -34329,7 +34360,8 @@
                 "text": "14,40 km/L",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "876435",
@@ -34370,7 +34402,8 @@
                 "text": "III e I.",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "876434",
@@ -34410,7 +34443,8 @@
                 "text": "Nas medi\u00e7\u00f5es feitas logo ap\u00f3s, 1 hora ap\u00f3s e 2 horas\nap\u00f3s a sess\u00e3o de treinamento.",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "876433",
@@ -34461,7 +34495,8 @@
                     "https://s3.amazonaws.com/qcon-assets-production/images/provas/56643/fce44a74fd4fc78f908d.png"
                 ]
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "876432",
@@ -34511,7 +34546,8 @@
                     "https://s3.amazonaws.com/qcon-assets-production/images/provas/56643/605a9c28c3dc94de1594.png"
                 ]
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "876431",
@@ -34550,7 +34586,8 @@
                 "text": "533 GB",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "876430",
@@ -34588,7 +34625,8 @@
                 "text": "7/18",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "876429",
@@ -34627,7 +34665,8 @@
                 "text": "1,12.",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "876428",
@@ -34667,7 +34706,8 @@
                 "text": "V.",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "876427",
@@ -34708,7 +34748,8 @@
                 "text": "320",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "876426",
@@ -34748,7 +34789,8 @@
                 "text": "3,0 L",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "851807",
@@ -34786,7 +34828,8 @@
                 "text": "18 h 40 min e 19 h.",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "851806",
@@ -34824,7 +34867,8 @@
                 "text": "0,800",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "851805",
@@ -34864,7 +34908,8 @@
                 "text": "28",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "851804",
@@ -34904,7 +34949,8 @@
                 "text": "V.",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "851803",
@@ -34943,7 +34989,8 @@
                 "text": "672.",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "851802",
@@ -34991,7 +35038,8 @@
                     "https://s3.amazonaws.com/qcon-assets-production/images/provas/56023/b851fd5405846581c920.png"
                 ]
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "851801",
@@ -35031,7 +35079,8 @@
                 "text": "7,6%",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "851800",
@@ -35077,7 +35126,8 @@
                 "text": "20 x 0,75",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "851799",
@@ -35117,7 +35167,8 @@
                 "text": "6.",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "851798",
@@ -35158,7 +35209,8 @@
                 "text": "600 , 2 400 e 5 400.",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "851797",
@@ -35199,7 +35251,8 @@
                 "text": "19\u00b0C",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "851796",
@@ -35239,7 +35292,8 @@
                 "text": "U.",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "851795",
@@ -35280,7 +35334,8 @@
                 "text": "75/2",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "851794",
@@ -35323,7 +35378,8 @@
                 "text": "5",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "851793",
@@ -35365,7 +35421,8 @@
                 "text": "P(t)= 78 + 42cos(t)",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "851792",
@@ -35406,7 +35463,8 @@
                 "text": "8/35",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "851791",
@@ -35445,7 +35503,8 @@
                 "text": "3/4",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "851790",
@@ -35486,7 +35545,8 @@
                 "text": "4,45",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "851789",
@@ -35527,7 +35587,8 @@
                 "text": "ramo de hip\u00e9rbole.",
                 "images": []
             }
-        }
+        },
+        "answer": null
     },
     {
         "qID": "851788",
@@ -35568,7 +35629,8 @@
                 "text": "50 e 50",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "851787",
@@ -35608,7 +35670,8 @@
                 "text": "972",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "851786",
@@ -35651,7 +35714,8 @@
                 "text": "V.",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "851785",
@@ -35690,7 +35754,8 @@
                 "text": "10000 .",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "851784",
@@ -35731,7 +35796,8 @@
                 "text": "4,100.",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "851783",
@@ -35773,7 +35839,8 @@
                 "text": "V.",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "851782",
@@ -35814,7 +35881,8 @@
                 "text": "os alunos X, Y e Z.",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "851781",
@@ -35855,7 +35923,8 @@
                 "text": "5.",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "851780",
@@ -35897,7 +35966,8 @@
                 "text": "4,20",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "851779",
@@ -35947,7 +36017,8 @@
                     "https://s3.amazonaws.com/qcon-assets-production/images/provas/56023/3998ebb3b45aa859ce37.png"
                 ]
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "851778",
@@ -35989,7 +36060,8 @@
                 "text": "9,00.",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "851777",
@@ -36030,7 +36102,8 @@
                 "text": "315\u00b0 no sentido hor\u00e1rio.",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "851776",
@@ -36070,7 +36143,8 @@
                 "text": "T.",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "851775",
@@ -36111,7 +36185,8 @@
                 "text": "prisma triangular reto.",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "851774",
@@ -36151,7 +36226,8 @@
                 "text": "40",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "851773",
@@ -36189,7 +36265,8 @@
                 "text": "25",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "851772",
@@ -36230,7 +36307,8 @@
                 "text": "P5",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "851771",
@@ -36269,7 +36347,8 @@
                 "text": "49,50.",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "851770",
@@ -36309,7 +36388,8 @@
                 "text": "46",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "851769",
@@ -36348,7 +36428,8 @@
                 "text": "5.",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "851768",
@@ -36387,7 +36468,8 @@
                 "text": "0,30.",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "851767",
@@ -36428,7 +36510,8 @@
                 "text": "400.",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "851766",
@@ -36469,7 +36552,8 @@
                 "text": "0",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "851765",
@@ -36511,7 +36595,8 @@
                 "text": "86%",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "851764",
@@ -36552,7 +36637,8 @@
                 "text": "17.",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "851763",
@@ -36600,7 +36686,8 @@
                     "https://s3.amazonaws.com/qcon-assets-production/images/provas/56023/e8629c9dbb8edeb4deb4.png"
                 ]
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "745633",
@@ -36641,7 +36728,8 @@
                 "text": "24 (n- 1 ) + 1 , comnum n\u00famero natural, tal que\n1 \u2264n\u2264 3.",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "745632",
@@ -36683,7 +36771,8 @@
                 "text": "C e E",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "745631",
@@ -36721,7 +36810,8 @@
                 "text": "6%",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "745630",
@@ -36761,7 +36851,8 @@
                 "text": "Janeiro, abril e junho.",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "745629",
@@ -36803,7 +36894,8 @@
                 "text": "log215.",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "745628",
@@ -36843,7 +36935,8 @@
                 "text": "06/03/2012.",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "745627",
@@ -36883,7 +36976,8 @@
                 "text": "R$ 22,80.",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "745626",
@@ -36923,7 +37017,8 @@
                 "text": "odor.",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "745625",
@@ -36963,7 +37058,8 @@
                 "text": "72",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "745624",
@@ -37003,7 +37099,8 @@
                 "text": "9",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "745623",
@@ -37044,7 +37141,8 @@
                 "text": "n2- 1",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "745622",
@@ -37087,7 +37185,8 @@
                 "text": "\u221a10",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "745621",
@@ -37125,7 +37224,8 @@
                 "text": "5/9",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "745620",
@@ -37166,7 +37266,8 @@
                 "text": "5.",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "745619",
@@ -37205,7 +37306,8 @@
                 "text": "20.",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "745618",
@@ -37256,7 +37358,8 @@
                     "https://s3.amazonaws.com/qcon-assets-production/images/provas/51609/ef4955bf427084067d83.png"
                 ]
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "745617",
@@ -37297,7 +37400,8 @@
                 "text": "4y- 9x\u2264 0; 8y- 3x\u2265 0;y\u2264 9;x\u2264 8",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "745616",
@@ -37335,7 +37439,8 @@
                 "text": "\u00c0s 21 h de ter\u00e7a-feira.",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "745615",
@@ -37374,7 +37479,8 @@
                 "text": "16",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "745614",
@@ -37415,7 +37521,8 @@
                 "text": "200,0 m da tela tipo A e 200,0 m da tela tipo B.",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "745613",
@@ -37456,7 +37563,8 @@
                 "text": "possui uma \u00fanica solu\u00e7\u00e3o real, pois as retas possuem\npontos em que se intersectam.",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "745612",
@@ -37497,7 +37605,8 @@
                 "text": "5\u00aa",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "745611",
@@ -37538,7 +37647,8 @@
                 "text": "80.",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "745610",
@@ -37577,7 +37687,8 @@
                 "text": "60\u00b0 dia.",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "745609",
@@ -37617,7 +37728,8 @@
                 "text": "12R.",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "745608",
@@ -37658,7 +37770,8 @@
                 "text": "600 000.",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "745607",
@@ -37699,7 +37812,8 @@
                 "text": "E",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "745606",
@@ -37738,7 +37852,8 @@
                 "text": "88%.",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "745605",
@@ -37776,7 +37891,8 @@
                 "text": "34x 345",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "745604",
@@ -37817,7 +37933,8 @@
                 "text": "2(2x + y) = 7 500",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "745603",
@@ -37867,7 +37984,8 @@
                     "https://s3.amazonaws.com/qcon-assets-production/images/provas/51609/94a3d899e330a186b955.png"
                 ]
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "745602",
@@ -37908,7 +38026,8 @@
                 "text": "5",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "745601",
@@ -37951,7 +38070,8 @@
                 "text": "7,77 e 11,77.",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "745600",
@@ -37990,7 +38110,8 @@
                 "text": "90,00.",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "745599",
@@ -38030,7 +38151,8 @@
                 "text": "4,0.",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "745598",
@@ -38069,7 +38191,8 @@
                 "text": "28 a 64 meses.",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "745597",
@@ -38110,7 +38233,8 @@
                 "text": "40,2.",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "745596",
@@ -38149,7 +38273,8 @@
                 "text": "96.",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "745595",
@@ -38190,7 +38315,8 @@
                 "text": "11, 16 e 5.",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "745594",
@@ -38229,7 +38355,8 @@
                 "text": "5/4, 1/2, 3/8",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "745593",
@@ -38268,7 +38395,8 @@
                 "text": "8.",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "745592",
@@ -38307,7 +38435,8 @@
                 "text": "Z , Y , X.",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "745591",
@@ -38346,7 +38475,8 @@
                 "text": "120",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "745590",
@@ -38385,7 +38515,8 @@
                 "text": "triplicada.",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "745589",
@@ -38425,7 +38556,8 @@
                 "text": "6,402.",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "719024",
@@ -38466,7 +38598,8 @@
                 "text": "E1= 9/7 \u2022E2",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "719023",
@@ -38505,7 +38638,8 @@
                 "text": "F5.",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "719022",
@@ -38556,7 +38690,8 @@
                     "https://s3.amazonaws.com/qcon-assets-production/images/provas/51172/74f1beafad00640e4a58.png"
                 ]
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "719021",
@@ -38595,7 +38730,8 @@
                 "text": "V.",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "719020",
@@ -38635,7 +38771,8 @@
                 "text": "De 0 a 25.",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "719019",
@@ -38674,7 +38811,8 @@
                 "text": "Tri\u00e2ngulos, quadrados, trap\u00e9zios e quadril\u00e1teros irregulares e pent\u00e1gonos, apenas.",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "719018",
@@ -38713,7 +38851,8 @@
                 "text": "40.",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "719017",
@@ -38754,7 +38893,8 @@
                 "text": "14.",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "719016",
@@ -38794,7 +38934,8 @@
                 "text": "V",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "719015",
@@ -38835,7 +38976,8 @@
                 "text": "800%",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "719014",
@@ -38875,7 +39017,8 @@
                 "text": "6",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "719013",
@@ -38916,7 +39059,8 @@
                 "text": "70%",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "719012",
@@ -38958,7 +39102,8 @@
                     "https://s3.amazonaws.com/qcon-assets-production/images/provas/51172/a23a0e6949ee4a59c83d.png"
                 ]
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "719011",
@@ -38997,7 +39142,8 @@
                 "text": "54",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "719010",
@@ -39042,7 +39188,8 @@
                 "text": "4 000.",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "719009",
@@ -39083,7 +39230,8 @@
                 "text": "120",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "719008",
@@ -39124,7 +39272,8 @@
                 "text": "150",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "719007",
@@ -39164,7 +39313,8 @@
                 "text": "dC< dB< dA",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "719006",
@@ -39204,7 +39354,8 @@
                 "text": "dezembro.",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "719005",
@@ -39245,7 +39396,8 @@
                 "text": "6,0 X 103m3",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "719004",
@@ -39287,7 +39439,8 @@
                 "text": "400.",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "719003",
@@ -39326,7 +39479,8 @@
                 "text": "288.",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "719002",
@@ -39366,7 +39520,8 @@
                 "text": "1 m\u00eas.",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "719001",
@@ -39407,7 +39562,8 @@
                 "text": "35",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "719000",
@@ -39447,7 +39603,8 @@
                 "text": "860",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "718999",
@@ -39497,7 +39654,8 @@
                     "https://s3.amazonaws.com/qcon-assets-production/images/provas/51172/38d0b337f3a96133751b.png"
                 ]
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "718998",
@@ -39537,7 +39695,8 @@
                 "text": "E.",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "718997",
@@ -39578,7 +39737,8 @@
                 "text": "80",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "718996",
@@ -39619,7 +39779,8 @@
                 "text": "5/12",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "718995",
@@ -39661,7 +39822,8 @@
                 "text": "10,0%",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "718994",
@@ -39712,7 +39874,8 @@
                     "https://s3.amazonaws.com/qcon-assets-production/images/provas/51172/326795d6635fadf55129.png"
                 ]
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "718993",
@@ -39753,7 +39916,8 @@
                 "text": "aumentar em 8 unidades.",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "718992",
@@ -39794,7 +39958,8 @@
                 "text": "610 741.",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "718991",
@@ -39842,7 +40007,8 @@
                     "https://s3.amazonaws.com/qcon-assets-production/images/provas/51172/6aa86708bc602fdd0b29.png"
                 ]
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "718990",
@@ -39883,7 +40049,8 @@
                 "text": "R$ 1,56.",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "718989",
@@ -39922,7 +40089,8 @@
                 "text": "53.",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "718988",
@@ -39963,7 +40131,8 @@
                 "text": "VII.",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "718987",
@@ -40006,7 +40175,8 @@
                 "text": "13,5 e 20,5.",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "718986",
@@ -40047,7 +40217,8 @@
                 "text": "5 e C.",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "718985",
@@ -40088,7 +40259,8 @@
                 "text": "185/60R15.",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "718984",
@@ -40128,7 +40300,8 @@
                 "text": "III e IV.",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "718983",
@@ -40169,7 +40342,8 @@
                 "text": "2 500",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "718982",
@@ -40210,7 +40384,8 @@
                 "text": "145",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "718981",
@@ -40250,7 +40425,8 @@
                 "text": "44,00 cm, 24,00 cm e 10,00 cm.",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "718980",
@@ -40292,7 +40468,8 @@
                 "text": "21.",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "572074",
@@ -40332,7 +40509,8 @@
                 "text": "outubro",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "572073",
@@ -40370,7 +40548,8 @@
                 "text": "P(I) = P(II) = P(III)",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "572072",
@@ -40409,7 +40588,8 @@
                 "text": "16 000.",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "572071",
@@ -40451,7 +40631,8 @@
                 "text": "1 201,9.",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "572070",
@@ -40499,7 +40680,8 @@
                     "https://s3.amazonaws.com/qcon-assets-production/images/provas/45420/7fe0ce445a73d57262bf.png"
                 ]
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "572069",
@@ -40540,7 +40722,8 @@
                 "text": "2b3",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "572068",
@@ -40581,7 +40764,8 @@
                 "text": "muito alta.",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "572067",
@@ -40620,7 +40804,8 @@
                 "text": "3,10.",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "572066",
@@ -40661,7 +40846,8 @@
                 "text": "(440 ; 20).",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "572065",
@@ -40700,7 +40886,8 @@
                 "text": "324,0.",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "572064",
@@ -40741,7 +40928,8 @@
                 "text": "E, C, D, B, A.",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "572063",
@@ -40781,7 +40969,8 @@
                 "text": "106.6.",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "572062",
@@ -40819,7 +41008,8 @@
                 "text": "90,0%",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "572061",
@@ -40870,7 +41060,8 @@
                     "https://s3.amazonaws.com/qcon-assets-production/images/provas/45420/b77d958fdbe98ff4a3e6.png"
                 ]
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "572060",
@@ -40910,7 +41101,8 @@
                 "text": "V",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "572059",
@@ -40952,7 +41144,8 @@
                 "text": "49.",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "572058",
@@ -41002,7 +41195,8 @@
                     "https://s3.amazonaws.com/qcon-assets-production/images/provas/45420/b1145090721325e17dbe.png"
                 ]
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "572057",
@@ -41043,7 +41237,8 @@
                 "text": "8",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "572056",
@@ -41082,7 +41277,8 @@
                 "text": "420 pe\u00e7as.",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "572055",
@@ -41123,7 +41319,8 @@
                 "text": "2\\3",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "572054",
@@ -41164,7 +41361,8 @@
                 "text": "27.5 e 42,5.",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "572053",
@@ -41203,7 +41401,8 @@
                 "text": "5 216,68",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "572052",
@@ -41244,7 +41443,8 @@
                 "text": "40",
                 "images": []
             }
-        }
+        },
+        "answer": "B"
     },
     {
         "qID": "572051",
@@ -41283,7 +41483,8 @@
                 "text": "4,129 X 1015",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "572050",
@@ -41321,7 +41522,8 @@
                 "text": "2 300,00.",
                 "images": []
             }
-        }
+        },
+        "answer": "D"
     },
     {
         "qID": "572049",
@@ -41362,7 +41564,8 @@
                 "text": "64\u03c0",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "572048",
@@ -41413,7 +41616,8 @@
                     "https://s3.amazonaws.com/qcon-assets-production/images/provas/45420/33c9a8106c8105a32516.png"
                 ]
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "572047",
@@ -41456,7 +41660,8 @@
                 "text": "oct\u00f3gono.",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     },
     {
         "qID": "572046",
@@ -41495,7 +41700,8 @@
                 "text": "P(t)= 8 000 . (1,5)t-1",
                 "images": []
             }
-        }
+        },
+        "answer": "E"
     },
     {
         "qID": "572045",
@@ -41533,7 +41739,8 @@
                 "text": "V.",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "572044",
@@ -41572,7 +41779,8 @@
                 "text": "R$ 4,50 \u2264 p < R$ 5,50",
                 "images": []
             }
-        }
+        },
+        "answer": "A"
     },
     {
         "qID": "572043",
@@ -41611,6 +41819,7 @@
                 "text": "30",
                 "images": []
             }
-        }
+        },
+        "answer": "C"
     }
 ]
