@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import { Text, View } from './Themed';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import data from '../assets/questions/data/mathQuestions.json'
-import '../assets/style/button.css'
+//import '../assets/style/button.css'
 
 //import StorageHits from './AsyncHits';
 
@@ -105,7 +105,7 @@ else {
               lightColor="rgba(0,0,0,0.8)"
               darkColor="rgba(255,255,255,0.8)">
               <TouchableOpacity onPress={handleClick}>
-                <button onClick={checkAnswer} className="buttonA" value={e[0]}>{e[1]['text']}</button>
+                <button onClick={checkAnswer} style={styles.button} value={e[0]}>{e[1]['text']}</button>
               </TouchableOpacity>
             </Text>);
         })}
@@ -191,6 +191,16 @@ const styles = StyleSheet.create({
   },
   helpLinkText: {
     textAlign: 'center',
+  },
+  button: {
+    paddingTop: 8,
+    paddingLeft: 8,
+    paddingRight: 8,
+    paddingBottom: 8,
+    borderWidth: 2,
+    borderRadius: 20,
+    borderColor: "black",
+    overflow: "hidden",
   },
 });
 

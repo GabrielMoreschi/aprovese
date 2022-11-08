@@ -1,9 +1,7 @@
 import * as WebBrowser from 'expo-web-browser';
-import { StyleSheet, TouchableOpacity } from 'react-native';
+import { StyleSheet } from 'react-native';
 import React, { useState } from 'react'
 
-import Colors from '../constants/Colors';
-import { MonoText } from './StyledText';
 import { Text, View } from './Themed';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useFocusEffect } from '@react-navigation/native';
@@ -66,16 +64,22 @@ export default function Statistics() {
   return (
     <View>
       <View style={styles.getStartedContainer}>
-      <Text
+        <Text
           style={styles.getStartedText}
           lightColor="rgba(0,0,0,0.8)"
           darkColor="rgba(255,255,255,0.8)">
-          <div className="skillBar">
-           <div className="level" style={{width:((Math.sqrt(parseInt(hits))*5)%1)*100+'%'}}>
-           Level: {Math.floor(Math.sqrt(parseInt(hits))*5)} ({Math.round((((Math.sqrt(parseInt(hits))*5)%1)*100)*100)/100}%)
+          <div style={styles.skillBar}>
+            <div style={{
+              width: ((Math.sqrt(parseInt(hits)) * 5) % 1) * 100 + '%',
+              textAlign: "right",
+              paddingTop: "4px",
+              paddingBottom: "4px", backgroundColor: "rgba(75, 192, 192, 0.2)",
+              whiteSpace: "nowrap"
+            }}>
+              Level: {Math.floor(Math.sqrt(parseInt(hits)) * 5)} ({Math.round((((Math.sqrt(parseInt(hits)) * 5) % 1) * 100) * 100) / 100}%)
             </div>
           </div>
-  
+
         </Text>
         <Text
           lightColor="rgba(0,0,0,0.8)"
@@ -87,11 +91,6 @@ export default function Statistics() {
   );
 }
 
-function handleHelpPress() {
-  WebBrowser.openBrowserAsync(
-    'https://docs.expo.io/get-started/create-a-new-app/#opening-the-app-on-your-phonetablet'
-  );
-}
 
 const styles = StyleSheet.create({
   getStartedContainer: {
@@ -102,5 +101,9 @@ const styles = StyleSheet.create({
     fontSize: 17,
     lineHeight: 24,
     textAlign: 'center',
+  },
+  skillBar: {
+    width: "20ch",
+    backgroundColor: "rgba(128, 128, 128, 0.2)"
   },
 });
