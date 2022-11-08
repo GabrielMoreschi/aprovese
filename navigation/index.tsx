@@ -72,7 +72,7 @@ function BottomTabNavigator() {
           headerRight: () => (
             <Pressable
               onPress={() => {
-                AsyncStorage.setItem('hits', '0')
+                //AsyncStorage.setItem('hits', '0')
                 window.location.reload();
               }
               }

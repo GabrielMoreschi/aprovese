@@ -9,6 +9,7 @@ import CountDownTimer from '../components/CountDownTimer';
 export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'>) {
   return (
     <View style={styles.container}>
+       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
       <CountDownTimer hours={1} minutes={0} seconds={0}/>
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
       <Question path="/screens/TabOneScreen.tsx" />

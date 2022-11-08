@@ -1,54 +1,87 @@
 import * as WebBrowser from 'expo-web-browser';
 import { StyleSheet, TouchableOpacity } from 'react-native';
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 
 import Colors from '../constants/Colors';
 import { MonoText } from './StyledText';
 import { Text, View } from './Themed';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { useFocusEffect } from '@react-navigation/native';
+import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
+import { Doughnut } from 'react-chartjs-2';
+import '../assets/style/skillbar.css'
+ChartJS.register(ArcElement, Tooltip, Legend);
 
-export default function Statistics({ path }: { path: string }) {
+export default function Statistics() {
   const [hits, setHits] = useState('0');
-  const readData = async() => {
-    const aHits = await AsyncStorage.getItem('hits');
-    if (aHits !== null) {
-      setHits(aHits)
-    }
-  }
+  const [failures, setFailures] = useState('0');
+
+  useFocusEffect(
+    React.useCallback(() => {
+      AsyncStorage.getItem('hits').then(h => {
+        if (h !== null) {
+          setHits(h);
+        }
+      });
+      AsyncStorage.getItem('failures').then(f => {
+        if (f !== null) {
+          setFailures(f);
+        }
+      });
+    }, [])
+  );
+
   React.useEffect(() => {
-   readData();
+    AsyncStorage.getItem('hits').then(h => {
+      if (h !== null) {
+        setHits(h);
+      }
+    });
+    AsyncStorage.getItem('failures').then(f => {
+      if (f !== null) {
+        setFailures(f);
+      }
+    });
   });
+  ChartJS.register(ArcElement, Tooltip, Legend);
+  const data = {
+    labels: ['Erros', 'Acertos'],
+    datasets: [
+      {
+        label: 'Estatísticas',
+        data: [failures, hits],
+        backgroundColor: [
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+        ],
+        borderColor: [
+          'rgba(255, 99, 132, 1)',
+          'rgba(54, 162, 235, 1)',
+        ],
+        borderWidth: 1,
+      },
+    ],
+  };
+
   return (
     <View>
       <View style={styles.getStartedContainer}>
-        <Text
+      <Text
           style={styles.getStartedText}
           lightColor="rgba(0,0,0,0.8)"
           darkColor="rgba(255,255,255,0.8)">
-          Open up the code for this screen:
+          <div className="skillBar">
+           <div className="level" style={{width:((Math.sqrt(parseInt(hits))*5)%1)*100+'%'}}>
+           Level: {Math.floor(Math.sqrt(parseInt(hits))*5)} ({Math.round((((Math.sqrt(parseInt(hits))*5)%1)*100)*100)/100}%)
+            </div>
+          </div>
+  
         </Text>
-
-        <View
-          style={[styles.codeHighlightContainer, styles.homeScreenFilename]}
-          darkColor="rgba(255,255,255,0.05)"
-          lightColor="rgba(0,0,0,0.05)">
-          <MonoText>{path}</MonoText>
-        </View>
-
         <Text
-          style={styles.getStartedText}
           lightColor="rgba(0,0,0,0.8)"
           darkColor="rgba(255,255,255,0.8)">
-          {hits}
+          <Doughnut data={data} />
         </Text>
-      </View>
-
-      <View style={styles.helpContainer}>
-        <TouchableOpacity onPress={handleHelpPress} style={styles.helpLink}>
-          <Text style={styles.helpLinkText} lightColor={Colors.light.tint}>
-            Tap here if your app doesn't automatically update after making changes
-          </Text>
-        </TouchableOpacity>
       </View>
     </View>
   );
@@ -65,27 +98,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginHorizontal: 50,
   },
-  homeScreenFilename: {
-    marginVertical: 7,
-  },
-  codeHighlightContainer: {
-    borderRadius: 3,
-    paddingHorizontal: 4,
-  },
   getStartedText: {
     fontSize: 17,
     lineHeight: 24,
-    textAlign: 'center',
-  },
-  helpContainer: {
-    marginTop: 15,
-    marginHorizontal: 20,
-    alignItems: 'center',
-  },
-  helpLink: {
-    paddingVertical: 15,
-  },
-  helpLinkText: {
     textAlign: 'center',
   },
 });
