@@ -6,8 +6,9 @@ import { Text, View } from './Themed';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useFocusEffect } from '@react-navigation/native';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
-import { Doughnut } from 'react-chartjs-2';
+import { Doughnut, Bar } from 'react-chartjs-2';
 import '../assets/style/skillbar.css'
+import { Card } from 'react-native-elements';
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 export default function Statistics() {
@@ -85,6 +86,17 @@ export default function Statistics() {
           lightColor="rgba(0,0,0,0.8)"
           darkColor="rgba(255,255,255,0.8)">
           <Doughnut data={data} />
+        </Text>
+        <Text
+          lightColor="rgba(0,0,0,0.8)"
+          darkColor="rgba(255,255,255,0.8)">
+          
+            <Text >
+            O gráfico corresponde ao dados resultantes do seu desempenho.
+            <br></br>
+            Tenha foco na suas métricas e fique atento ao tempo de prova.
+            </Text>
+          
         </Text>
       </View>
     </View>
